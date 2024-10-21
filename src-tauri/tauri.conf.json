@@ -8,7 +8,7 @@
     },
     "package": {
         "productName": "快手",
-        "version": "0.0.1"
+        "version": "0.0.2"
     },
     "tauri": {
         "allowlist": {
@@ -74,7 +74,7 @@
         },
         "bundle": {
             "active": true,
-            "targets": "all",
+            "targets": ["deb", "appimage", "nsis", "app", "dmg", "updater"],
             "identifier": "com.pakeplus.desktop",
             "icon": [
                 "icons/32x32.png",

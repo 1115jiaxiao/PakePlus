@@ -7,7 +7,7 @@
         "distDir": "../dist"
     },
     "package": {
-        "productName": "抖音",
+        "productName": "Douyin",
         "version": "0.0.1"
     },
     "tauri": {

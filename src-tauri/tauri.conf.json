@@ -7,8 +7,8 @@
         "distDir": "../dist"
     },
     "package": {
-        "productName": "Douyin",
-        "version": "0.0.1"
+        "productName": "抖音",
+        "version": "0.0.2"
     },
     "tauri": {
         "allowlist": {
@@ -74,7 +74,7 @@
         },
         "bundle": {
             "active": true,
-            "targets": "all",
+            "targets": ["all"],
             "identifier": "com.douyin.desktop",
             "icon": [
                 "icons/32x32.png",

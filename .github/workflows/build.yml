@@ -56,7 +56,7 @@ jobs:
               with:
                   tagName: ${{ github.ref_name }} # This only works if your workflow triggers on new tags.
                   releaseName: '抖音 v__VERSION__' # tauri-action replaces \_\_VERSION\_\_ with the app version.
-                  releaseBody: '这是一个抖音桌面端项目，支持Windows/Mac/Linux等'
+                  releaseBody: ''
                   releaseDraft: false
                   prerelease: false
                   publish: true
